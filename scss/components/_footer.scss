@@ -1,0 +1,36 @@
+footer {
+	background-color: $headerAndFooterBg;
+    .footer__sections{
+    	margin: 10px 0px;
+	    a{
+	    	.tipografiaLogo{
+	    		font-family: $logoFont;
+				font-style: italic;
+				font-weight: bold;
+				color: black;
+	    	}
+		    .mailLogo{
+			    width: 32px;
+	            height: 32px;
+		    }
+	    }
+	    .footer__sections{
+	        .redes__iconos{
+		        transform: $redesTransform;
+		        a{
+		        	.redes__facebook{
+                    padding: 0px 15px 0px 15px;  
+		            }
+		            .redes__instagram{
+                        padding: 0px 15px 0px 15px;
+		            }
+		            .redes__linkedin{
+                        padding: 0px 15px 0px 15px;
+		            }
+		        }
+		        
+	        }
+        }
+    }
+}
+

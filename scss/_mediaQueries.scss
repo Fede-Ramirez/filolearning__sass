@@ -1,0 +1,243 @@
+// Media querie mobile
+
+@media (max-width: 768px){
+
+//Estilos generales
+
+nav{
+	div{
+		.tipografiaLogo{
+			font-size: 25px;
+		}
+	}
+}
+
+// Estilo INDEX
+
+main{
+	section{
+		.indexImg1{
+			background-image:url("../assets/img/foco_idea.jpg");
+	        background-position: center;
+	        background-repeat: no-repeat;
+	        background-size: cover;
+	        width: 100%;
+	        height: 325px;
+	         h1{
+	        	color: beige;
+	            font-size: 35px;
+	            margin: 30px 0px 0px 0px;
+	            text-align: center;
+	            text-shadow: 1px 2px 1px ghostwhite;
+	        }
+		.section1{
+			display: flex;
+	        flex-direction: column;
+	        justify-content: flex-start;
+		  }
+		}
+		div{
+			.iconos__edicion{
+				margin: 50px 10px 0px 10px;
+	            width: 100px;
+	            height: 100px;
+			}
+			.icono__palabra{
+				font-size: 16px;
+	            font-weight: bold;
+			}
+			.icono__texto{
+				display:none;
+			}
+		}
+		.indexImg2{
+			background-image: url("../assets/img/cuaderno.jpg");
+	        width: 100%;
+	        height: 325px;
+	        background-position: top;
+	        background-repeat: no-repeat;
+	        background-size: cover;
+	        .section3__frase{
+	        	color: snow;
+	            text-align: center;
+	            font-size: 30px;
+	            font-weight: bold;
+	            margin-top: 50px ;
+	            text-shadow: 1px 2px 1px black;
+	        }
+		  }
+		}
+	}
+
+// Estilo footer
+
+.footerMobile{
+	display: flex;
+	flex-direction: column-reverse;
+	.footer__sections{
+		div{
+			.contacto__texto{
+				font-size: 15px;
+	            font-weight: bold;
+	            text-align: center;
+	            margin-top: 15px;
+			}
+			.redes__texto{
+				font-size: 15px;
+	            font-weight: bold;
+	            text-align: right;
+	            margin: 15px 10px 15px 0px;
+			}
+			.copyright__texto{
+				font-size: 12px;
+	            text-transform: capitalize;
+	            margin-left: 25px;
+			}
+		}
+		a{
+			.tipografiaLogo{
+				font-size: 25px;
+			}
+			.mailDireccion{
+				margin: 5px 0px 5px 0px;
+	            padding: 5px;
+	            font-size: 13px;
+	            font-weight: bold;
+	            color: black;
+			}
+		}
+	}
+	.contacto__whatsapp{
+		display: flex;
+		flex-direction: row;
+		.whatsappLogo{
+			width: 32px !important;
+			height: 32px !important;
+		}
+		.whatsapp{
+			margin-top: 5px;
+	        padding: 5px;
+	        font-size: 13px;
+	        font-weight: bold;
+	        color: black;
+		}
+	}
+}
+}
+
+// Media querie desktop
+
+@media (min-width: 992px){
+
+// Estilos generales
+
+nav {
+	div{
+		.tipografiaLogo{
+			font-size: 40px;
+		}
+		div{
+			ul{
+				li{
+					padding: 20px;
+				}
+			}
+		}
+		
+	}
+}
+
+// Estilo INDEX
+
+main{
+	section{
+		.indexImg1{
+           background-image:url("../assets/img/foco_idea.jpg");
+	       background-position: center;
+	       background-repeat: no-repeat;
+	       background-size: cover;
+	       width: 100%;
+	       height: 600px;
+	       .section1__h1{
+	       	   color: beige;
+	           font-size: 80px;
+	           margin-right: 250px;
+	           text-shadow: 1px 2px 1px 2px ghostwhite;
+	       }       
+		}
+		div{
+			.iconos__edicion{
+				margin: 50px 10px 20px 10px;
+	            width: 150px;
+	            height: 150px;
+			}
+			.icono__palabra{
+				font-size: 20px;
+	            font-weight: bold;
+			}
+			.section3__frase{
+				color: snow;
+	            text-align: center;
+	            font-size: 50px;
+	            font-weight: bold;
+	            margin-top: 50px;
+	            text-shadow: 1px 2px 1px black;
+			}
+		}
+		.indexImg2{
+			background-image: url("../assets/img/cuaderno.jpg");
+	        width: 100%;
+	        height: 700px;
+	        background-position: top;
+	        background-repeat: no-repeat;
+	        background-size: cover;
+		}
+	}
+}
+
+// Estilo footer
+
+footer{
+	div{
+		div{
+			.contacto__texto{
+				font-size: 20px;
+	            text-align: center;
+	            font-weight: bold;
+			}
+			.redes__texto{
+				font-size: 20px;
+	            text-align: center;
+	            margin-bottom: 27px;
+	            font-weight: bold;
+			}
+			.copyright__texto{
+				font-size: 12px;
+	            text-transform: capitalize;
+	            margin-left: 60px;
+			}
+		}
+		a{
+			.tipografiaLogo{
+				font-size: 40px;
+			}
+		}
+		.contacto__whatsapp{
+			position: fixed;
+	        left: 1220px;
+	        bottom: 20px;
+	        .whatsapp{
+	        	display: none;
+	        }
+		}
+		.contacto__mail{
+			.mailDireccion{
+				padding: 5px;
+	            font-size: 17px;
+	            font-weight: bold;
+	            color: black;
+			}
+		}
+	}
+}
+}

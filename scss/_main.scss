@@ -1,0 +1,25 @@
+// Estilos generales INDEX
+
+.index__background{
+	background-color: $indexBg; 
+	section{
+		div{
+			.section2__iconos{
+                margin-bottom: 40px;
+			}
+			.section2__texto{
+	            text-align: center;
+	            font-size: 30px;
+	            font-weight: bold;
+	            margin: 100px 0px;
+            }
+            .section2__pregunta{
+	            text-align: center;
+	            font-family: "libre baskerville", serif;
+	            font-weight: bold;
+	            font-size: 25px;
+	            margin-bottom: 50px;
+            }
+		}
+	}
+}
