@@ -14,23 +14,20 @@ footer {
 	            height: 32px;
 		    }
 	    }
-	    .footer__sections{
-	        .redes__iconos{
+	    .redes__iconos{
 		        transform: $redesTransform;
 		        a{
 		        	.redes__facebook{
-                    padding: 0px 15px 0px 15px;  
+                        padding: $redesPadding;  
 		            }
 		            .redes__instagram{
-                        padding: 0px 15px 0px 15px;
+                        padding: $redesPadding;
 		            }
 		            .redes__linkedin{
-                        padding: 0px 15px 0px 15px;
+                        padding: $redesPadding;
 		            }
 		        }
-		        
-	        }
+            }
         }
-    }
 }
 

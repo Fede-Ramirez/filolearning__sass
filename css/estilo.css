@@ -60,13 +60,13 @@ footer {
     footer .footer__sections a .mailLogo {
       width: 32px;
       height: 32px; }
-    footer .footer__sections .footer__sections .redes__iconos {
+    footer .footer__sections .redes__iconos {
       transform: scale(1.1, 1.1); }
-      footer .footer__sections .footer__sections .redes__iconos a .redes__facebook {
+      footer .footer__sections .redes__iconos a .redes__facebook {
         padding: 0px 15px 0px 15px; }
-      footer .footer__sections .footer__sections .redes__iconos a .redes__instagram {
+      footer .footer__sections .redes__iconos a .redes__instagram {
         padding: 0px 15px 0px 15px; }
-      footer .footer__sections .footer__sections .redes__iconos a .redes__linkedin {
+      footer .footer__sections .redes__iconos a .redes__linkedin {
         padding: 0px 15px 0px 15px; }
 
 @media (max-width: 768px) {
