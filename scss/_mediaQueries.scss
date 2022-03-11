@@ -69,6 +69,22 @@ main{
 		}
 	}
 
+// Estilo ACERCA DE MÍ
+
+main{
+	section{
+		div{
+			.edicionEncabezados{
+	        padding: 0px 0px 10px 0px;
+	        margin-top: 20px;
+	        color: #2e2e1f;
+	        font-family: "libre baskerville", serif;
+	        text-align: center;
+         }
+		}
+	}
+} 
+
 // Estilo footer
 
 .footerMobile{
@@ -191,6 +207,24 @@ main{
 	        background-position: top;
 	        background-repeat: no-repeat;
 	        background-size: cover;
+		}
+	}
+}
+
+// Estilo ACERCA DE MÍ
+
+main{
+	section{
+		div{
+			.edicionEncabezados{
+	            padding: 0px 0px 10px 0px;
+	            margin: 20px 10px 20px 0px ;
+	            color: #2e2e1f;
+	            font-size: 30px;
+	            font-family: "libre baskerville", serif;
+	            font-weight: bold;
+	            text-align: left;
+            }            
 		}
 	}
 }
