@@ -28,8 +28,6 @@ li {
 .views__background {
   background-color: #FDFCE5; }
 
-/*Estilos generales header*/
-
 header {
   background-color: #ffffcc; }
   header div nav div .tipografiaLogo {
@@ -41,8 +39,6 @@ header {
     font-weight: bold; }
   header div nav div div ul li .views {
     font-weight: bold; }
-
-/*Estilos generales INDEX*/
 
 .index__background {
   background-color: #f2f2f2; }
@@ -59,8 +55,6 @@ header {
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 50px; }
-
-/*Estilos generales ACERCA DE MÍ y SERVICIOS*/
 
 main section div .main__imagen {
   margin-bottom: 50px; }
@@ -97,8 +91,6 @@ main section div .pagos__encabezado {
   font-weight: bold;
   margin: 75px 75px 0px 75px; }
 
-/*Estilos generales footer*/
-
 footer {
   background-color: #ffffcc; }
   footer .footer__sections {
@@ -120,17 +112,9 @@ footer {
       footer .footer__sections .redes__iconos a .redes__linkedin {
         padding: 0px 15px 0px 15px; }
 
-/*Media querie mobile*/
-
 @media (max-width: 768px) {
-
-/*Estilo logo*/
-
   nav div .tipografiaLogo {
     font-size: 25px; }
-
-/*Estilo INDEX*/
-
   main section .indexImg1 {
     background-image: url("../assets/img/foco_idea.jpg");
     background-position: center;
@@ -171,18 +155,12 @@ footer {
       font-weight: bold;
       margin-top: 50px;
       text-shadow: 1px 2px 1px black; }
-
-/*Estilo ACERCA DE MÍ*/
-
   main section div .edicionEncabezados {
     padding: 0px 0px 10px 0px;
     margin-top: 20px;
     color: #2e2e1f;
     font-family: "libre baskerville", serif;
     text-align: center; }
-
-/*Estilo footer*/
-
   .footerMobile {
     display: flex;
     flex-direction: column-reverse; }
@@ -221,19 +199,11 @@ footer {
         font-weight: bold;
         color: black; } }
 
-/*Media querie desktop*/
-
 @media (min-width: 992px) {
-
-/*Estilo nav*/
-
   nav div .tipografiaLogo {
     font-size: 40px; }
   nav div div ul li {
     padding: 20px; }
-
-/*Estilo INDEX*/
-
   main section .indexImg1 {
     background-image: url("../assets/img/foco_idea.jpg");
     background-position: center;
@@ -267,9 +237,6 @@ footer {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover; }
-
-/*Estilo ACERCA DE MÍ*/
-
   main section div .edicionEncabezados {
     padding: 0px 0px 10px 0px;
     margin: 20px 10px 20px 0px;
@@ -278,9 +245,6 @@ footer {
     font-family: "libre baskerville", serif;
     font-weight: bold;
     text-align: left; }
-
-/*Estilo footer*/
-
   footer div div .contacto__texto {
     font-size: 20px;
     text-align: center;
