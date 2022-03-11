@@ -1,3 +1,3 @@
 # filolearning__sass
-Autor: Federico Ramirez Sanabria
+Autor: Federico Ramirez Sanabria;
 Proyecto: sitio web educativo
