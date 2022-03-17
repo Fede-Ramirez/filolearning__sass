@@ -27,7 +27,11 @@ footer {
                         padding: $redesPadding;
 		            }
 		        }
-            }
         }
+        .copyright__texto{
+        	text-transform: capitalize;
+        	font-size: 13px;
+        }
+    }
 }
 

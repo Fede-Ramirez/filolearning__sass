@@ -10,7 +10,6 @@
 }
 
 h1{
-	font-family: $titlesFont;
 	font-weight: bold;
 	font-size: 40px;
 	margin: 0px 20px 20px 20px;
@@ -22,9 +21,12 @@ a{
 
 li{
 	list-style-type: none;
-	padding: 5px;
 	margin: 10px;
 	border-radius: 5px;
+}
+
+.nav-link{
+	font-size: 15px;
 }
 
 .centrar{

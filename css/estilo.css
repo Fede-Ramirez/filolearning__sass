@@ -3,10 +3,9 @@
   padding: 0; }
 
 * {
-  font-family: "roboto", sans-serif; }
+  font-family: "libre baskerville", serif; }
 
 h1 {
-  font-family: "libre baskerville", serif;
   font-weight: bold;
   font-size: 40px;
   margin: 0px 20px 20px 20px; }
@@ -16,9 +15,11 @@ a {
 
 li {
   list-style-type: none;
-  padding: 5px;
   margin: 10px;
   border-radius: 5px; }
+
+.nav-link {
+  font-size: 15px; }
 
 .centrar {
   text-align: center; }
@@ -40,8 +41,6 @@ header {
 
 .index__background {
   background-color: #f2f2f2; }
-  .index__background section div .section2__iconos {
-    margin-bottom: 40px; }
   .index__background section div .section2__texto {
     text-align: center;
     font-size: 30px;
@@ -52,6 +51,8 @@ header {
     font-family: "libre baskerville", serif;
     font-weight: bold;
     font-size: 25px;
+    margin-bottom: 50px; }
+  .index__background .section2__iconos {
     margin-bottom: 50px; }
 
 main section div .main__imagen {
@@ -74,6 +75,9 @@ main section .oracionFinal {
   border-width: 2px 0px 2px 0px;
   background-image: linear-gradient(to top, #fee3f3, #fee4f4, #fee6f6, #ffe7f7, #ffe8f8, #fbeafb, #f7edfe, #f3efff, #ecf4ff, #e6f8ff, #e3fcff, #e5fffd); }
 
+main .parrafos {
+  margin-bottom: 30px; }
+
 main section div .edicionMapas {
   border-color: black;
   border-style: solid;
@@ -88,6 +92,9 @@ main section div .pagos__encabezado {
   font-size: 20px;
   font-weight: bold;
   margin: 75px 75px 0px 75px; }
+
+main .iconos {
+  margin-bottom: 50px; }
 
 main section div .main__encabezados {
   text-align: center;
@@ -108,27 +115,28 @@ main section .cardArea {
     text-align: center;
     font-size: 15px; }
 
-main section div .labelName {
-  font-size: 20px;
-  font-weight: bold;
-  color: black; }
+main section div .contacto__oracion {
+  margin-top: 50px; }
 
-main section div .areaLabel {
-  margin-top: 15px; }
-
-main section div .btn-primary, main section div .boton--enviar, main section div .boton--restablecer {
-  width: 200px;
-  height: 50px;
-  text-align: center;
-  font-weight: bold;
-  color: black;
-  border-radius: 20px; }
-
-main section div .boton--enviar {
-  background-color: lightgreen; }
-
-main section div .boton--restablecer {
-  background-color: coral; }
+main form {
+  padding: 75px; }
+  main form section div .labelName {
+    font-size: 20px;
+    font-weight: bold;
+    color: black; }
+  main form section div .areaLabel {
+    margin-top: 15px; }
+  main form section div .btn-primary, main form section div .boton--enviar, main form section div .boton--restablecer {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-radius: 20px; }
+  main form section div .boton--enviar {
+    background-color: lightblue; }
+  main form section div .boton--restablecer {
+    background-color: lightcyan; }
 
 footer {
   background-color: #ffffcc; }
@@ -150,6 +158,9 @@ footer {
         padding: 0px 15px 0px 15px; }
       footer .footer__sections .redes__iconos a .redes__linkedin {
         padding: 0px 15px 0px 15px; }
+    footer .footer__sections .copyright__texto {
+      text-transform: capitalize;
+      font-size: 13px; }
 
 @media (max-width: 768px) {
   nav div .tipografiaLogo {
@@ -203,43 +214,40 @@ footer {
   main section div div .imagenesMobile {
     width: 100%;
     height: 300px; }
-  .footerMobile {
+  footer .footer__sections div .contacto__texto {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px; }
+  footer .footer__sections div .redes__texto {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    margin: 15px 10px 15px 0px; }
+  footer .footer__sections div .copyright__texto {
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-left: 25px; }
+  footer .footer__sections a .tipografiaLogo {
+    font-size: 25px; }
+  footer .footer__sections a .mailDireccion {
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: black; }
+  footer .contacto__whatsapp {
     display: flex;
-    flex-direction: column-reverse; }
-    .footerMobile .footer__sections div .contacto__texto {
-      font-size: 15px;
-      font-weight: bold;
-      text-align: center;
-      margin-top: 15px; }
-    .footerMobile .footer__sections div .redes__texto {
-      font-size: 15px;
-      font-weight: bold;
-      text-align: right;
-      margin: 15px 10px 15px 0px; }
-    .footerMobile .footer__sections div .copyright__texto {
-      font-size: 12px;
-      text-transform: capitalize;
-      margin-left: 25px; }
-    .footerMobile .footer__sections a .tipografiaLogo {
-      font-size: 25px; }
-    .footerMobile .footer__sections a .mailDireccion {
-      margin: 5px 0px 5px 0px;
+    flex-direction: row; }
+    footer .contacto__whatsapp .whatsappLogo {
+      width: 32px !important;
+      height: 32px !important; }
+    footer .contacto__whatsapp .whatsapp {
+      margin-top: 5px;
       padding: 5px;
       font-size: 13px;
       font-weight: bold;
-      color: black; }
-    .footerMobile .contacto__whatsapp {
-      display: flex;
-      flex-direction: row; }
-      .footerMobile .contacto__whatsapp .whatsappLogo {
-        width: 32px !important;
-        height: 32px !important; }
-      .footerMobile .contacto__whatsapp .whatsapp {
-        margin-top: 5px;
-        padding: 5px;
-        font-size: 13px;
-        font-weight: bold;
-        color: black; } }
+      color: black; } }
 
 @media (min-width: 992px) {
   nav div .tipografiaLogo {
@@ -255,9 +263,9 @@ footer {
     height: 650px; }
     main section .indexImg1 .section1__h1 {
       color: beige;
-      font-size: 80px;
-      margin-right: 250px;
-      text-shadow: 1px 2px 1px 2px ghostwhite; }
+      font-size: 100px;
+      text-shadow: 1px 2px 1px 2px ghostwhite;
+      text-align: center; }
   main section div .iconos__edicion {
     margin: 50px 10px 20px 10px;
     width: 150px;
@@ -314,4 +322,7 @@ footer {
     padding: 5px;
     font-size: 17px;
     font-weight: bold;
-    color: black; } }
+    color: black; }
+  .footerDesktop {
+    display: flex;
+    flex-direction: row-reverse; } }

@@ -4,9 +4,6 @@
 	background-color: $indexBg; 
 	section{
 		div{
-			.section2__iconos{
-                margin-bottom: 40px;
-			}
 			.section2__texto{
 	            text-align: center;
 	            font-size: 30px;
@@ -21,6 +18,9 @@
 	            margin-bottom: 50px;
             }
 		}
+	}
+	.section2__iconos{
+		margin-bottom: 50px;
 	}
 }
 
@@ -51,6 +51,9 @@ main{
 	        background-image: $frasesGradient;
 		}
 	}
+	.parrafos{
+		margin-bottom: 30px;
+	}
 }
 
 // Estilos generales SERVICIOS
@@ -74,6 +77,9 @@ main{
 	            margin: 75px 75px 0px 75px;            
 			}
 		}
+	}
+	.iconos{
+		margin-bottom: 50px;
 	}
 }
 
@@ -116,30 +122,40 @@ main{
 main{
 	section{
 		div{
-			.labelName{
-				font-size: 20px;
-	            font-weight: bold;
-	            color: black;  
-			}
-			.areaLabel{
-				margin-top: 15px;
-			}
-			.btn-primary{
-				width: 200px;
-				height: 50px;
-				text-align: center;
-				font-weight: bold;
-				color: black;
-				border-radius: 20px; 
-			}
-			.boton--enviar{
-				@extend .btn-primary;
-				background-color: lightgreen;
-			}
-			.boton--restablecer{
-				@extend .btn-primary;
-				background-color: coral;
+			.contacto__oracion{
+				margin-top: 50px;
 			}
 		}
 	}
-}
+	form{
+		padding: 75px;
+	    section{
+		   div{
+			   .labelName{
+				   font-size: 20px;
+	               font-weight: bold;
+	               color: black;  
+			   }
+			   .areaLabel{
+				   margin-top: 15px;
+			   }
+			   .btn-primary{
+				   width: 200px;
+				   height: 50px;
+				   text-align: center;
+				   font-weight: bold;
+				   color: black;
+				   border-radius: 20px; 
+			   }
+			   .boton--enviar{
+				   @extend .btn-primary;
+				   background-color: lightblue;
+			   }
+			   .boton--restablecer{
+				   @extend .btn-primary;
+				   background-color: lightcyan;
+			   }
+		   }
+	   }
+    }
+} 

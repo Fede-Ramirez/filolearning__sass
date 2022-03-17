@@ -110,9 +110,7 @@ main{
 
 // Estilo footer
 
-.footerMobile{
-	display: flex;
-	flex-direction: column-reverse;
+footer{
 	.footer__sections{
 		div{
 			.contacto__texto{
@@ -203,9 +201,9 @@ main{
 	       @include background-images-desktopstyles;
 	       .section1__h1{
 	       	   color: beige;
-	           font-size: 80px;
-	           margin-right: 250px;
+	           font-size: 100px;
 	           text-shadow: 1px 2px 1px 2px ghostwhite;
+	           text-align: center;
 	       }       
 		}
 		div{
@@ -313,5 +311,12 @@ footer{
 			}
 		}
 	}
+}
+
+// Estilo footer
+
+.footerDesktop{
+	display: flex;
+	flex-direction: row-reverse;
 }
 }
