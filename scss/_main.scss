@@ -33,10 +33,10 @@ main{
 				margin-bottom: 50px;
 			}
 			.edicionParrafos{
-				line-height: 1.6;
-	            font-size: 18px;
-	            text-align: justify;
-	            margin: 0px 10px 0px 10px;
+				line-height: map-get($estilosParrafos, interlineado);
+				font-size: map-get($estilosParrafos, tFuente);
+				text-align: map-get($estilosParrafos, justificado);
+				margin: map-get($estilosParrafos, margenesHorizontales);
 			}
 			.edicionFrase{
 				text-align: center;
@@ -72,6 +72,73 @@ main{
 	            font-size: 20px;
 	            font-weight: bold;
 	            margin: 75px 75px 0px 75px;            
+			}
+		}
+	}
+}
+
+// Estilos generales ASIGNATURAS
+
+main{
+	section{
+		div{
+			.main__encabezados{
+                text-align: center;
+	            font-family: "libre baskerville", serif;
+	            font-size: 30px;
+	            font-weight: bold;
+	            margin: 50px 0px 50px 0px; 
+			}
+		}
+		.cardArea{
+			margin-bottom: 30px;
+			div{
+				.imagenesAsignaturas{
+					width: 100%;
+	                height: 185px;
+	                border-width: 2px;
+				}
+				div{
+					.nombreAsignaturas{
+						font-weight: bold;
+	                    font-family: "libre baskerville", serif;
+	                    text-align: center;
+	                    font-size: 15px;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Estilos generales CONTACTO
+
+main{
+	section{
+		div{
+			.labelName{
+				font-size: 20px;
+	            font-weight: bold;
+	            color: black;  
+			}
+			.areaLabel{
+				margin-top: 15px;
+			}
+			.btn-primary{
+				width: 200px;
+				height: 50px;
+				text-align: center;
+				font-weight: bold;
+				color: black;
+				border-radius: 20px; 
+			}
+			.boton--enviar{
+				@extend .btn-primary;
+				background-color: lightgreen;
+			}
+			.boton--restablecer{
+				@extend .btn-primary;
+				background-color: coral;
 			}
 		}
 	}

@@ -14,6 +14,11 @@ nav{
 
 // Estilo INDEX
 
+@mixin background-images-mobilestyles{
+	width: 100%;
+	height: 325px;
+}
+
 main{
 	section{
 		.indexImg1{
@@ -21,8 +26,7 @@ main{
 	        background-position: center;
 	        background-repeat: no-repeat;
 	        background-size: cover;
-	        width: 100%;
-	        height: 325px;
+	        @include background-images-mobilestyles;
 	         h1{
 	        	color: beige;
 	            font-size: 35px;
@@ -52,11 +56,10 @@ main{
 		}
 		.indexImg2{
 			background-image: url("../assets/img/cuaderno.jpg");
-	        width: 100%;
-	        height: 325px;
 	        background-position: top;
 	        background-repeat: no-repeat;
 	        background-size: cover;
+	        @include background-images-mobilestyles;
 	        .section3__frase{
 	        	color: snow;
 	            text-align: center;
@@ -80,10 +83,30 @@ main{
 	        color: #2e2e1f;
 	        font-family: "libre baskerville", serif;
 	        text-align: center;
-         }
+            }
 		}
 	}
 } 
+
+// Estilo SERVICIOS
+
+@mixin imagenes-mobile{
+	width: 100%;
+	height:300px;
+}
+
+main{
+	section{
+		div{
+			div{
+				.imagenesMobile{
+                    @include imagenes-mobile;
+				}
+			}
+		}
+	}
+}
+
 
 // Estilo footer
 
@@ -165,6 +188,11 @@ nav {
 
 // Estilo INDEX
 
+@mixin background-images-desktopstyles{
+	width: 100%;
+	height: 650px;
+}
+
 main{
 	section{
 		.indexImg1{
@@ -172,8 +200,7 @@ main{
 	       background-position: center;
 	       background-repeat: no-repeat;
 	       background-size: cover;
-	       width: 100%;
-	       height: 600px;
+	       @include background-images-desktopstyles;
 	       .section1__h1{
 	       	   color: beige;
 	           font-size: 80px;
@@ -202,11 +229,10 @@ main{
 		}
 		.indexImg2{
 			background-image: url("../assets/img/cuaderno.jpg");
-	        width: 100%;
-	        height: 700px;
 	        background-position: top;
 	        background-repeat: no-repeat;
 	        background-size: cover;
+	        @include background-images-desktopstyles;
 		}
 	}
 }
@@ -225,6 +251,20 @@ main{
 	            font-weight: bold;
 	            text-align: left;
             }            
+		}
+	}
+}
+
+// Estilo SERVICIOS
+
+main{
+	section{
+		div{
+			div{
+				.imagenDesktop{
+					height: 300px;
+				}
+			}
 		}
 	}
 }
