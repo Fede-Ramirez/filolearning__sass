@@ -120,7 +120,9 @@ main section div .contacto__oracion {
 
 main form {
   padding: 75px; }
-  main form section div .labelName {
+  main form .formulario__bg {
+    background-color: beige; }
+  main form section div .form-label {
     font-size: 20px;
     font-weight: bold;
     color: black; }
@@ -128,11 +130,12 @@ main form {
     margin-top: 15px; }
   main form section div .btn-primary, main form section div .boton--enviar, main form section div .boton--restablecer {
     width: 200px;
-    height: 50px;
+    height: 40px;
     text-align: center;
     font-weight: bold;
     color: black;
-    border-radius: 20px; }
+    border-radius: 20px;
+    margin: 50px 0px; }
   main form section div .boton--enviar {
     background-color: lightblue; }
   main form section div .boton--restablecer {

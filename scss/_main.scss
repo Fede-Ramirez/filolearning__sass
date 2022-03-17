@@ -129,9 +129,12 @@ main{
 	}
 	form{
 		padding: 75px;
+		.formulario__bg{
+			background-color: beige;
+		}
 	    section{
 		   div{
-			   .labelName{
+			   .form-label{
 				   font-size: 20px;
 	               font-weight: bold;
 	               color: black;  
@@ -141,11 +144,12 @@ main{
 			   }
 			   .btn-primary{
 				   width: 200px;
-				   height: 50px;
+				   height: 40px;
 				   text-align: center;
 				   font-weight: bold;
 				   color: black;
-				   border-radius: 20px; 
+				   border-radius: 20px;
+				   margin: 50px 0px; 
 			   }
 			   .boton--enviar{
 				   @extend .btn-primary;
