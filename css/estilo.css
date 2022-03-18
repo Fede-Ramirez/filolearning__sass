@@ -306,6 +306,9 @@ footer {
     text-align: left; }
   main section div div .imagenDesktop {
     height: 300px; }
+  main section div div div .iframes {
+    display: flex;
+    flex-direction: row; }
   footer div div .contacto__texto {
     font-size: 20px;
     text-align: center;
