@@ -106,6 +106,10 @@ main section div .main__encabezados {
   font-weight: bold;
   margin: 50px 0px 50px 0px; }
 
+main section div .mainTexto {
+  margin-top: 50px;
+  font-size: 15px; }
+
 main section .cardArea {
   margin-bottom: 30px; }
   main section .cardArea div .imagenesAsignaturas {
@@ -119,7 +123,8 @@ main section .cardArea {
     font-size: 15px; }
 
 main section div .contacto__oracion {
-  margin-top: 50px; }
+  margin-top: 50px;
+  font-size: 15px; }
 
 main form {
   padding: 75px; }
