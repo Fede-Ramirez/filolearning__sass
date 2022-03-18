@@ -7,6 +7,10 @@ header {
 					font-family: $logoFont;
 					font-style: italic;
 					font-weight: bold;
+					.logo__nombre{
+						color: crimson;
+						font-family: $logoFont;
+					}
 				}
 			div{
 				ul{

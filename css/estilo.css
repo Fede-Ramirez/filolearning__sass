@@ -33,6 +33,9 @@ header {
     font-family: "cormorant upright", serif;
     font-style: italic;
     font-weight: bold; }
+    header div nav div .tipografiaLogo .logo__nombre {
+      color: crimson;
+      font-family: "cormorant upright", serif; }
   header div nav div div ul li .nav__anchor {
     color: white !important;
     font-weight: bold; }
@@ -150,6 +153,9 @@ footer {
       font-style: italic;
       font-weight: bold;
       color: black; }
+      footer .footer__sections a .tipografiaLogo .logo__nombre {
+        color: crimson;
+        font-family: "cormorant upright", serif; }
     footer .footer__sections a .mailLogo {
       width: 32px;
       height: 32px; }
