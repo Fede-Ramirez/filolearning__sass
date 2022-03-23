@@ -46,7 +46,6 @@ header {
   background-color: #f2f2f2; }
   .index__background section div .section2__texto {
     text-align: center;
-    font-size: 30px;
     font-weight: bold;
     margin: 100px 0px; }
   .index__background section div .section2__pregunta {
@@ -199,6 +198,8 @@ footer {
       display: flex;
       flex-direction: column;
       justify-content: flex-start; }
+  main section div .section2__texto {
+    font-size: 25px; }
   main section div .iconos__edicion {
     margin: 50px 10px 0px 10px;
     width: 100px;
@@ -368,6 +369,8 @@ footer {
       font-size: 100px;
       text-shadow: 1px 2px 1px 2px ghostwhite;
       text-align: center; }
+  main section div .section2__texto {
+    font-size: 30px; }
   main section div .iconos__edicion {
     margin: 50px 10px 20px 10px;
     width: 150px;
