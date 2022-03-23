@@ -96,6 +96,9 @@ main section div .pagos__encabezado {
   font-weight: bold;
   margin: 75px 75px 0px 75px; }
 
+main section div div div .edicionEncabezados {
+  font-weight: bold; }
+
 main .iconos {
   margin-bottom: 50px; }
 
@@ -228,8 +231,6 @@ footer {
   main section div div .imagenesMobile {
     width: 100%;
     height: 300px; }
-  main section div div div .edicionEncabezados {
-    font-weight: bold; }
   footer .footer__sections div .contacto__texto {
     font-size: 15px;
     font-weight: bold;

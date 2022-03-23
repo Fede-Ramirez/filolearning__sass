@@ -102,16 +102,10 @@ main{
 				.imagenesMobile{
                     @include imagenes-mobile;
 				}
-				div{
-					.edicionEncabezados{
-						font-weight: bold;
-					}
-				}
 			}
 		}
 	}
 }
-
 
 // Estilo footer
 
