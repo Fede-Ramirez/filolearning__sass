@@ -13,8 +13,10 @@ h1 {
 a {
   text-decoration: none; }
 
+a:hover {
+  text-decoration: underline; }
+
 li {
-  list-style-type: none;
   margin: 10px;
   border-radius: 5px; }
 
@@ -96,7 +98,8 @@ main section div .pagos__encabezado {
   margin: 75px 75px 0px 75px; }
 
 main section div div div .edicionEncabezados {
-  font-weight: bold; }
+  font-weight: bold;
+  text-align: center; }
 
 main .iconos {
   margin-bottom: 50px; }
@@ -110,7 +113,8 @@ main section div .main__encabezados {
 
 main section div .mainTexto {
   margin-top: 50px;
-  font-size: 15px; }
+  font-size: 15px;
+  text-align: center; }
 
 main section .cardArea {
   margin-bottom: 30px; }
@@ -126,7 +130,8 @@ main section .cardArea {
 
 main section div .contacto__oracion {
   margin-top: 50px;
-  font-size: 15px; }
+  font-size: 15px;
+  text-align: center; }
 
 main form {
   padding: 75px; }
