@@ -28,6 +28,15 @@ li{
 	border-radius: 5px;
 }
 
+.navbar-nav{
+	border-top: 4px solid brown;
+	border-bottom: 4px solid brown;
+}
+
+.navbar-brand:hover{
+	text-decoration: none;
+}
+
 .nav-link{
 	font-size: 15px;
 }
